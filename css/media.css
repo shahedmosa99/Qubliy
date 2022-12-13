@@ -1,0 +1,106 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .rowflex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .bor {
+    border: none;
+  }
+  .imgbk {
+    background-color: #e0ead8;
+    border-radius: 50%;
+    width: 9%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+  }
+  .red {
+    background-color: #f1b4b0;
+  }
+  .blue {
+    background-color: #e6f7ff;
+  }
+  .profile {
+    border-radius: 50%;
+    width: 50%;
+  }
+  .cent {
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+  .bor {
+    border: none;
+  }
+  .cent {
+    text-align: center;
+  }
+  .imgbk {
+    background-color: #e0ead8;
+    border-radius: 50%;
+    width: 9%;
+    height: 27%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+  }
+  .red {
+    background-color: #f1b4b0;
+  }
+  .blue {
+    background-color: #e6f7ff;
+  }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  .bor {
+    border: none;
+  }
+  .cent {
+    text-align: center;
+  }
+  .imgbk {
+    background-color: #e0ead8;
+    border-radius: 50%;
+    width: 12%;
+    height: 27%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+  }
+  .red {
+    background-color: #f1b4b0;
+  }
+  .blue {
+    background-color: #e6f7ff;
+  }
+}
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  .imgbk {
+    background-color: #e0ead8;
+    border-radius: 50%;
+    width: 10%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+  }
+  .red {
+    background-color: #f1b4b0;
+  }
+  .blue {
+    background-color: #e6f7ff;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* XX-Large devices (larger desktops)
+ No media query since the xxl breakpoint has no upper bound on its width */
